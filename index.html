@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Liens | LinkOfLinks</title>
+    <meta name="description" content="Découvrez tous mes réseaux sociaux et liens importants.">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+    
+    <div class="container">
+        <header class="profile-header">
+            <div class="profile-image-container">
+                <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=256&q=80" alt="Photo de profil" class="profile-image">
+            </div>
+            <h1 class="profile-name">John Doe</h1>
+            <p class="profile-bio">Créateur Digital & Développeur 🚀<br>Découvrez mon univers ci-dessous</p>
+        </header>
+
+        <main class="links-container">
+            <a href="https://instagram.com" target="_blank" class="link-item" style="--item-index: 1;">
+                <div class="link-icon"><i class="fab fa-instagram"></i></div>
+                <span class="link-title">Instagram</span>
+                <div class="link-arrow"><i class="fas fa-chevron-right"></i></div>
+            </a>
+
+            <a href="https://twitter.com" target="_blank" class="link-item" style="--item-index: 2;">
+                <div class="link-icon"><i class="fa-brands fa-x-twitter"></i></div>
+                <span class="link-title">Twitter / X</span>
+                <div class="link-arrow"><i class="fas fa-chevron-right"></i></div>
+            </a>
+
+            <a href="https://linkedin.com" target="_blank" class="link-item" style="--item-index: 3;">
+                <div class="link-icon"><i class="fab fa-linkedin-in"></i></div>
+                <span class="link-title">LinkedIn</span>
+                <div class="link-arrow"><i class="fas fa-chevron-right"></i></div>
+            </a>
+
+            <a href="https://github.com" target="_blank" class="link-item" style="--item-index: 4;">
+                <div class="link-icon"><i class="fab fa-github"></i></div>
+                <span class="link-title">GitHub</span>
+                <div class="link-arrow"><i class="fas fa-chevron-right"></i></div>
+            </a>
+
+            <a href="https://youtube.com" target="_blank" class="link-item" style="--item-index: 5;">
+                <div class="link-icon"><i class="fab fa-youtube"></i></div>
+                <span class="link-title">YouTube</span>
+                <div class="link-arrow"><i class="fas fa-chevron-right"></i></div>
+            </a>
+            
+            <a href="https://mon-portfolio.com" target="_blank" class="link-item highlight" style="--item-index: 6;">
+                <div class="link-icon"><i class="fas fa-globe"></i></div>
+                <span class="link-title">Mon Portfolio</span>
+                <div class="link-arrow"><i class="fas fa-chevron-right"></i></div>
+            </a>
+        </main>
+        
+        <div class="social-row">
+            <a href="#" class="social-icon" title="Discord"><i class="fab fa-discord"></i></a>
+            <a href="#" class="social-icon" title="Contact Email"><i class="fas fa-envelope"></i></a>
+            <a href="#" class="social-icon" title="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+
+        <button class="share-btn" id="shareBtn" title="Partager">
+            <i class="fas fa-share-nodes"></i>
+        </button>
+
+        <footer>
+            <p>Créé avec ❤️ via Antigravity</p>
+        </footer>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">Lien copié dans le presse-papiers !</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
